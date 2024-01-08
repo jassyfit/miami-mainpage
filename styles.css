@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+Turquoise Blue: #00A19D
+Hot Pink: #FF6B6B
+Sunny Yellow: #FFD166
+Coral Orange: #EF476F
+Ocean Blue: #118AB2
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #118AB2;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #FFD166, #EF476F);
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 25px 0;
+    background-image: url("images/Biscayne.png");
+    background-size: cover;
+    height: 350px;
+    width: auto;
+    margin: 0;
+    text-shadow:2px 2px 1px gray;
+    
+}
+#title{
+    background: #FF6B6B;
+    padding:10px;
+    margin: 50px 0 5px 0;
+       
+}
+#quote{
+    width: 400px;
+    font-size:18px;
+    background: #00A19D;
+    padding:10px;
+    margin:5px 0 0 px;
+}
+
+.roundborder{
+    border-radius: 5px;
+}
+
+.activities{
+    background: #ECF5F5;
+    margin: 0;
+    padding: 20px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-shadow:2px 2px 1px white;
+   
+}
+
+.activities-points{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.circle{
+    border-radius:50%;
+}
+
+.poi{
+    width: 200px;
+
+}
+
+.guide{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+    padding: 10px;
+    background: #ECF5F5;
+    text-shadow:2px 2px 1px white;
+    border-bottom: 4px solid #EF476F;
+}
+
+.sunset-bg{
+    
+    
+}
+.guide-style{
+    width: 180px;
+    margin: 5px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+
+.poi-img{
+    width:100px;
+    height:100px;
+    background-image: url("images/lighthouse.jpeg");
+    background-size:cover;
+    
+}
